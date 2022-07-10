@@ -1,10 +1,14 @@
-function loggedIn() {
-    return true;}
-
-
 function app() {
-    if (loggedIn()) {
-// redirect
+    if(loggedIn()) {
+//redirect home
+    }
+    else {
+// redirect to register
     }
 
-    }
+}   
+    
+function loggedIn() {
+  return true;
+
+}
